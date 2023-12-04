@@ -29,7 +29,7 @@ const DrawPage = () => {
   )
 
   return (
-    <div style={{ width: '100%', height: '100%' }}>
+    <div className='w-full h-full'>
       <Tldraw
         persistenceKey='joy-note-persistence'
         // store={store}
